@@ -12,6 +12,7 @@ let totalImg = 0;
 
 function onSearch(e) {
   e.preventDefault();
+  page = 1;
   searchQuery = e.target.elements.query.value;
   clearCard();
 
